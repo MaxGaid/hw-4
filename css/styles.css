@@ -95,7 +95,7 @@ ul {
   color: #757575;
   padding-top: 32px;
   padding-bottom: 32px;
-  display: block;
+  display: flex;
 }
 .header-info:hover,
 .header-info:focus {
@@ -268,6 +268,19 @@ ul {
 .about-item {
   width: 270px;
 }
+.about-bg-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+}
+.about-logo {
+  align-items: center;
+}
 
 /* section-photo */
 .photo-title {
@@ -410,4 +423,32 @@ ul {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+}
+
+/* clinets */
+
+.clients-bg-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  color: #afb1b8;
+}
+.clients-bg-logo:hover,
+.clients-bg-logo:focus {
+  border: 1px solid var(--accent-color-text);
+  color: var(--accent-color-text);
+}
+.clients-logo {
+  fill: currentColor;
+}
+.clients-cont {
+  display: flex;
+}
+
+.clients-link:not(:last-child) {
+  margin-right: 30px;
 }
